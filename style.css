@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(72, 72, 232);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#box {
+  width: 140px;
+  height: 120px;
+  background: white;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(108, 108, 108);
+  width: 500px;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sliders {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
+label {
+  display: block;
+
+  color: white;
+}
+.colors {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+#inest {
+  display: flex;
+  gap: 5px;
+}
+
+#outputCode {
+  margin-top: 16px;
+  display: flex;
+  gap: 4px;
+}
+#outputCode input {
+ background: white;
+ color: black;
+ padding: 8px 16px;
+width: 100%;
+outline: none;
+border: none;
+border-radius: 6px;
+
+}
+#outputCode button {
+color: white;
+background: rgb(72, 72, 232);
+padding: 8px 16px;
+outline: none;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+#outputCode button:hover {
+  background: rgb(20, 20, 237);
+  border-radius: 3px;
+
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Box Shadow</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="card">
+
+          <div id="box"></div>
+        </div>
+        <div class="sliders">
+          <label for="sldr1">Horizontal Shadow</label>
+          <input type="range" id="sldr1" value="0" min="-50" max="50" />
+          <label for="sldr2">Vertical Shadow</label>
+          <input type="range" id="sldr2" value="0" min="-50" max="50" />
+          <label for="sldr3">Blur Shadow</label>
+          <input type="range" id="sldr3" value="0" min="0" max="100" />
+          <label for="sldr4">Spread Shadow</label>
+          <input type="range" id="sldr4" value="0" min="-50" max="50" />
+        </div>
+        <div class="colors">
+          <label for="shadowcolor">Shadow Color</label>
+          <input type="color" id="shadowcolor" value="#000000" />
+          <label for="sldr5">Shadow Color Opacity</label>
+          <input type="range" id="sldr5" value="100" min="0" max="100" />
+          <div id="inset">
+            <label for="inset-checkbox">Inset Shadow</label>
+            <input type="checkbox" id="inset-checkbox" />
+          </div>
+        </div>
+        <div id="outputCode">
+          <input type="text" id="css-code" readonly />
+          <button id="copy">Copy</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
